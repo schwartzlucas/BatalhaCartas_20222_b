@@ -9,8 +9,7 @@ public class CardViewEvent extends Event {
 	public CardViewEvent(CardView source) {
 		super(source, null, ANY);
 	}
-	//saodsaoasd
-	//sdffsdfsd
+	
 	public CardView getCardView() {
 		return (CardView) getSource();
 	}
